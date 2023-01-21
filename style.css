@@ -20,7 +20,7 @@ div{
 }
 img {
 	height: 200px;
-	width:fit-content;
+	width: auto;
 	cursor: pointer;
 	margin: 5px;
 }
