@@ -1,0 +1,47 @@
+body {
+	background-color: #f5f5dc;
+}
+h1 {
+	text-align: center;
+}
+hr {
+	height: 3px;
+}
+#portal1 {
+	background-color: rgb(43, 187, 233);
+}
+#portal2 {
+	background-color: rgb(247, 148, 33);
+}
+div{
+	display: block;
+	width:max-content;
+	margin: 10px;
+}
+img {
+	height: 200px;
+	width:fit-content;
+	cursor: pointer;
+	margin: 5px;
+}
+#div0 {
+	background-color: blue;
+}
+button {
+	height: 50px;
+	width: 100px;
+	cursor: pointer;
+	position: sticky;
+	bottom: 10px;
+	float: right;
+	margin: 5px;
+	font-size: large;
+	font-weight:bold;
+	background-color:rgb(229, 191, 68);
+}
+.arrow {
+	width: 50px;
+}
+.left50{
+	margin-left: 50px;
+}

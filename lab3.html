@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE> Лабораторна робота№3 ІТех Ісамутдінов Даніїл </TITLE>
+		<link rel='stylesheet' href='style.css'>
+
+	</HEAD>
+	<BODY>
+		<h1>Лабораторна робота№2 ІТех<br>
+			Ісамутдінов Даніїл
+		</h1>
+			<h3>Ця веб сторінка, згідно з варіанту лабораторної роботи, виводить галерею малюнків, кнопки для зміни їх порядку, та можливості зміни деяких параметрів стилю обраного малюнка.<br>(Щоб обрати потрібну картинку клікніть на неї)
+			<br>
+		</h3>
+		<hr id="portal1">
+		<div>
+			<div id='div0' onclick='active = 1; activeCur(active)'><img src='img1.png' alt='img1' id='img0'></div>
+			<div id='div1' onclick='active = 2; activeCur(active)'><img src='img2.gif' alt='img2' id='img1'></div>
+			<div id='div2' onclick='active = 3; activeCur(active)'><img src='img3.gif' alt='img3' id='img2'></div>
+			<div id='div3' onclick='active = 4; activeCur(active)'><img src='img4.png' alt='img4' id='img3'></div>
+			<div id='div4' onclick='active = 5; activeCur(active)'><img src='img5.png' alt='img5' id='img4'></div>
+			<div id='div5' onclick='active = 6; activeCur(active)'><img src='img6.png' alt='img6' id='img5'></div>
+		</div>
+		<hr id="portal2">
+		<button class='arrow left50' type='button' onclick='refresh()'	>&#10226;</button>
+		
+		<button type='button' onclick='changeAlt()'					>Альт.<br>текст	</button>
+		<button type='button' onclick='changeMargin()'				>Товщина<br>рамки</button>
+		<button type='button' onclick='changeHeight()'				>Висота			</button>
+		<button type='button' onclick='changeWidth()' class='left50'>Ширина			</button>
+
+		<button class='arrow' type='button' onclick='downCurDiv()'>&#8595;</button>
+		<button class='arrow' type='button' onclick='upCurDiv()'  >&#8593;</button>
+		<script src='script.js'></script>
+	</BODY>
+</HTML>
